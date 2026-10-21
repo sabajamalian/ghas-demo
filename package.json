@@ -1,0 +1,15 @@
+{
+  "name": "ghas-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Intentionally vulnerable app for demonstrating GitHub Advanced Security",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "lodash": "4.17.20"
+  }
+}
